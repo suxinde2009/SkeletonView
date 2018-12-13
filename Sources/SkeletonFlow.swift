@@ -8,7 +8,6 @@ protocol SkeletonFlowDelegate {
     func willBeginUpdatingSkeletons(withRootView rootView: UIView)
     func willBeginHidingSkeletons(withRootView rootView: UIView)
     func didHideSkeletons(withRootView rootView: UIView)
-
 }
 
 class SkeletonFlowHandler: SkeletonFlowDelegate {
